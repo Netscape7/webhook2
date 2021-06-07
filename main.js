@@ -25,11 +25,11 @@ var input_webhook = addInput({
 });
 var input_username = addInput({
     ttl: "名前",
-    val: "きょーた"
+    val: "一般シベリア軍員"
 });
 var input_avatar = addInput({
     ttl: "アバター画像",
-    val: "https://i.imgur.com/tzZ9Tgy.jpg"
+    val: ""
 });
 var input_text = addTextarea("発言内容");
 $.get("sample.txt", function(r){
